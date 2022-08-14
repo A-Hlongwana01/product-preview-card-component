@@ -1,3 +1,5 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
 :root{
     /* primary */
     --Dark_cyan: hsl(185, 75%, 39%);
@@ -11,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 
@@ -23,12 +26,12 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-
+    font-family: ;
 }
 
 
 #box{
-    width: 30.3%;
+    width: 25%;
     background-color: white;
     margin: auto;
     border-radius: 15px;
@@ -36,13 +39,11 @@
     z-index: 3;
 }
 
-
 #blue-bubbles{
     width: 100%;
     border-top-right-radius:15px;
     border-top-left-radius:15px;
 }
-
 
 #victor{
     position: relative;
@@ -56,19 +57,24 @@
     margin-right: auto;
 }
 
-
 h1{
-    font-size: medium;
     margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--Very_dark_desaturated_blue);
 }
 
 span{
-    font-weight: 100;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Dark_gray);
+    padding-left: 6px;
 }
 
 h2{
-    font-weight: 100;
-    font-size: medium;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--Dark_gray);
 }
 
 .profile-info{
@@ -82,6 +88,8 @@ h2{
 #footer{
     display: flex;
     margin-top: 15px;
+    margin-bottom: 20px;
+    color: var(--Very_dark_desaturated_blue);
 }
 
 .items{
@@ -105,5 +113,9 @@ h2{
 #bottom-bg{
     bottom: -680px;
     right: -300px;
-   
+}
+
+small{
+    color: var(--Dark_grayish_blue);
+    font-size: 12px;
 }
